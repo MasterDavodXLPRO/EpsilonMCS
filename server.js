@@ -234,4 +234,4 @@ if(command === 'sorteo'){
   message.channel.send('Afortunado: **'+ message.guild.members.random().user+'**');
 }  
 });
-client.login(config.token);    
+client.login(process.env.BOT_TOKEN);
