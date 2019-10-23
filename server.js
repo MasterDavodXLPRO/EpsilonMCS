@@ -57,7 +57,7 @@ client.on("message", (message) => {
             },
             {
               name: "**__Comandos Staff:__**",
-              value: "Proximamente..."
+              value: "Tienen: *ban, *kick"
             }
           ],
           timestamp: new Date(),
@@ -105,7 +105,7 @@ client.on("message", (message) => {
     if (message.content.startsWith(prefix +"ip")){
       message.channel.send({embed: {
         color: 800070,
-        description: "Ip: En Mantenimiento."
+        description: "Ip: play.epsilonmcs.tk"
       }});
     } else
 if(command === 'server'){
